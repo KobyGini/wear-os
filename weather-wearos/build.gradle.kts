@@ -62,7 +62,10 @@ dependencies {
     implementation(libs.horologist.compose.tools)
     implementation(libs.horologist.tiles)
     implementation(libs.watchface.complications.data.source.ktx)
+    implementation ("com.google.accompanist:accompanist-permissions:0.36.0")
+    implementation("androidx.wear:wear-tooling-preview:1.0.0")
 
+    implementation(libs.androidx.material3)
     /** Coil **/
     implementation(libs.coil.compose)
     implementation(libs.coil.gif)
@@ -76,6 +79,7 @@ dependencies {
 
     /** Hilt **/
     implementation(libs.hilt.android)
+    implementation(libs.play.services.location)
     kapt(libs.hilt.android.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
 
@@ -95,7 +99,8 @@ dependencies {
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
 
-
+    implementation(libs.kotlin.coroutines.play)
+    implementation(libs.androidx.work.runtime.ktx)
 
 
 }

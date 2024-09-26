@@ -2,6 +2,9 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="CurrentLocationScreenPreview">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
@@ -32,12 +35,12 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="$USER_HOME$/.android/avd/Pixel_7_API_30.avd" />
+                  <value value="$USER_HOME$/.android/avd/Wear_OS_Small_Round_API_34.avd" />
                 </Key>
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-09-22T18:44:21.831319Z" />
+          <timeTargetWasSelectedWithDropDown value="2024-09-26T11:04:49.660451Z" />
         </State>
       </entry>
       <entry key="weatherapp">
